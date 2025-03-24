@@ -1,0 +1,19 @@
+[package]
+name = "tui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+bitflags = "2.9.0"
+crossterm = "0.27.0"
+humansize = "2.1.3"
+jiff = "0.2.0"
+ratatui = "0.29.0"
+ringbuffer = "0.15.0"
+shared = { path = "../../shared" }
+unicode-width = "0.1"
+
+[features]
+# Treat warnings as a build error.
+strict = []
